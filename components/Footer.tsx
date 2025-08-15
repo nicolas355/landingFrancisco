@@ -1,5 +1,5 @@
 import { Mail, Linkedin, ExternalLink, MapPin } from "lucide-react"
-
+import Link from "next/link"
 type FooterProps = {
   variant?: "landing" | "tool" // landing = tu web v0, tool = cotizador oscuro
   email?: string
@@ -10,7 +10,7 @@ type FooterProps = {
 
 export default function Footer({
   variant = "landing",
-  email = "francisco@tudominio.com",
+  email = "contacto@franciscopena.com.ar",
   accentFrom = "from-emerald-500",
   accentVia = "via-teal-500",
   accentTo = "to-cyan-500",
@@ -115,34 +115,31 @@ export default function Footer({
           </h3>
           <ul className="mt-3 space-y-2 text-sm">
             <li>
-              <a
-                href="https://cotizador-migliore.vercel.app/checkprice"
+              <Link
+                href="/tools"
+                target="_blank"
                 className={
                   isLight
                     ? "group inline-flex items-center gap-2 hover:text-neutral-900"
                     : "group inline-flex items-center gap-2 hover:text-white"
                 }
-                target="_blank"
-                rel="noreferrer"
               >
                 Cotizador de Precios
                 <ExternalLink className="h-3.5 w-3.5 opacity-70 group-hover:opacity-100" />
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://v0-modern-landing-page-virid-eta.vercel.app/"
+              <Link
+                href="/"
                 className={
                   isLight
                     ? "group inline-flex items-center gap-2 hover:text-neutral-900"
                     : "group inline-flex items-center gap-2 hover:text-white"
                 }
-                target="_blank"
-                rel="noreferrer"
               >
                 Portfolio / Landing
                 <ExternalLink className="h-3.5 w-3.5 opacity-70 group-hover:opacity-100" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

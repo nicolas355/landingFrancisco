@@ -2,6 +2,8 @@ import React from "react"
 import { Check, ArrowRight } from "lucide-react"
 import { Button } from "./ui/button"
 const Cta = () => {
+  const whatsappLink = "https://wa.me/5491141871454"
+
   return (
     <div>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-blue-800">
@@ -23,7 +25,13 @@ const Cta = () => {
                 size="lg"
                 className="h-12 px-8 bg-yellow-500 hover:bg-yellow-600 text-black"
               >
-                Enviar mensaje
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Enviar mensaje
+                </a>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
