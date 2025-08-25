@@ -6,7 +6,10 @@ const Cta = () => {
 
   return (
     <div>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-blue-800">
+      <section
+        id="contacto"
+        className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-blue-800"
+      >
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -39,7 +42,9 @@ const Cta = () => {
                 size="lg"
                 className="h-12 px-8 border-white text-white hover:bg-white hover:text-blue-800 bg-transparent"
               >
-                Descargar CV
+                <a href="/images/CV.pdf" download="CV.pdf/CV.pdf">
+                  Descargar CV
+                </a>
               </Button>
             </div>
             <div className="flex items-center space-x-4 text-sm text-blue-100">

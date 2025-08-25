@@ -58,3 +58,8 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+
+*{
+  scroll-behavior: smooth;
+}

@@ -4,10 +4,7 @@ import { Briefcase, Check } from "lucide-react"
 const Experience = () => {
   return (
     <div>
-      <section
-        id="experiencia"
-        className="w-full py-12 md:py-24 lg:py-32 bg-gray-50"
-      >
+      <section id="experiencia" className="w-full py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -33,7 +30,7 @@ const Experience = () => {
                   E-Commerce Manager
                 </h3>
                 <p className="text-yellow-600 font-medium">
-                  Pinturerías Migliore · 2020 – Presente
+                  Pinturerías Migliore · 2023 – Presente
                 </p>
               </div>
               <div className="md:w-2/3 space-y-4">
@@ -82,16 +79,21 @@ const Experience = () => {
                   Asistente de eCommerce
                 </h3>
                 <p className="text-yellow-600 font-medium">
-                  MountainFunnel · 2018 – 2020
+                  MountainFunnel · 2019 – 2022
                 </p>
               </div>
               <div className="md:w-2/3 space-y-4">
                 <p className="text-muted-foreground">
-                  Administración operativa de tienda en MercadoLibre y soporte
-                  en la estrategia comercial digital para productos de
-                  construcción.
+                  Administración operativa de tienda en MercadoLibre y tienda
+                  nube
                 </p>
                 <ul className="space-y-2">
+                  <li className="flex items-start space-x-2">
+                    <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">
+                      Carga de Productos
+                    </span>
+                  </li>
                   <li className="flex items-start space-x-2">
                     <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
@@ -102,10 +104,16 @@ const Experience = () => {
                   <li className="flex items-start space-x-2">
                     <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">
-                      Implementación de sistema de seguimiento postventa y
-                      gestión de reputación.
+                      Soporte en la estrategia comercial digital
                     </span>
                   </li>
+                  <li className="flex items-start space-x-2">
+                    <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                    <span className="text-muted-foreground">
+                      Implementación de sistema de seguimiento postventa
+                    </span>
+                  </li>
+
                   <li className="flex items-start space-x-2">
                     <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <span className="text-muted-foreground">

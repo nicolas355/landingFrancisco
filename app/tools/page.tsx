@@ -30,10 +30,10 @@ export default function MainPageCheckPrice() {
     Record<string, number>
   >({
     "Cuota promocionada": 0.04,
-    "3 cuotas": 0.095,
-    "6 cuotas": 0.154,
-    "9 cuotas": 0.215,
-    "12 cuotas": 0.274,
+    "3 cuotas": 0.114,
+    "6 cuotas": 0.189,
+    "9 cuotas": 0.266,
+    "12 cuotas": 0.34,
   })
 
   const [sinEnvioOpcion, setSinEnvioOpcion] = useState<string>("Hasta $15.000")

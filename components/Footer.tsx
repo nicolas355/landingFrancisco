@@ -117,7 +117,6 @@ export default function Footer({
             <li>
               <Link
                 href="/tools"
-                target="_blank"
                 className={
                   isLight
                     ? "group inline-flex items-center gap-2 hover:text-neutral-900"

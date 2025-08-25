@@ -36,16 +36,21 @@ const HeroSections = () => {
                   size="lg"
                   className="h-12 px-8 bg-yellow-500 hover:bg-yellow-600 text-black"
                 >
-                  Descargar CV
+                  <a href="/images/CV.pdf" download="CV.pdf/CV.pdf">
+                    Descargar CV
+                  </a>
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="h-12 px-8 border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent"
-                >
-                  Ver Portafolio
-                </Button>
+
+                <a href="#operacion-catalogo">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="h-12 px-8 border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent"
+                  >
+                    Mis competencias
+                  </Button>
+                </a>
               </div>
               <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                 <div className="flex items-center space-x-1">
