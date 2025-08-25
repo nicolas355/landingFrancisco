@@ -291,7 +291,11 @@ export default function MainPageCheckPrice() {
               {/* Resultado */}
               <div className="mt-4 p-4 bg-gray-200 rounded">
                 <p className="text-lg font-bold">
-                  Ganancia Neta Estimada: ${resultadoFormateado}
+                  Dinero a recibir:{" "}
+                  <span className="text-[#85BB65] ">
+                    {" "}
+                    ${resultadoFormateado}
+                  </span>
                 </p>
               </div>
 
