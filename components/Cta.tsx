@@ -2,8 +2,6 @@ import React from "react"
 import { Check, ArrowRight } from "lucide-react"
 import { Button } from "./ui/button"
 const Cta = () => {
-  const whatsappLink = "https://wa.me/5491141871454"
-
   return (
     <div>
       <section
@@ -29,7 +27,7 @@ const Cta = () => {
                 className="h-12 px-8 bg-yellow-500 hover:bg-yellow-600 text-black"
               >
                 <a
-                  href={whatsappLink}
+                  href="mailto:contacto@franciscopena.com.ar"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -37,15 +35,18 @@ const Cta = () => {
                 </a>
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="h-12 px-8 border-white text-white hover:bg-white hover:text-blue-800 bg-transparent"
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1ehYamS_pcM3Xxe8EBp1aiEQWHzShuTuF/view?usp=sharing"
               >
-                <a href="/images/CV.pdf" download="CV.pdf/CV.pdf">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="h-12 px-8 border-white text-white hover:bg-white hover:text-blue-800 bg-transparent"
+                >
                   Descargar CV
-                </a>
-              </Button>
+                </Button>
+              </a>
             </div>
             <div className="flex items-center space-x-4 text-sm text-blue-100">
               <div className="flex items-center space-x-1">

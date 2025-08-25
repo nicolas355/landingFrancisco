@@ -18,13 +18,7 @@ export default function Footer({
   const year = new Date().getFullYear()
   const isLight = variant === "landing"
   return (
-    <footer
-      className={
-        isLight
-          ? "mt-16 bg-neutral-50 text-neutral-800"
-          : "mt-24 bg-neutral-950 text-neutral-200"
-      }
-    >
+    <footer className={" bg-neutral-50 text-neutral-800"}>
       {/* Top border / accent */}
       <div
         className={`h-1 w-full bg-[#2446A6] ${accentFrom} ${accentVia} ${accentTo}`}
@@ -164,6 +158,7 @@ export default function Footer({
             <li>MercadoLibre · Ads · Full/Flex</li>
             <li>SEO de fichas · Fotografías</li>
             <li>Pricing & rentabilidad</li>
+            <li>Clips</li>
             <li>Catálogo: ALBA · VENIER · SIKA</li>
           </ul>
         </div>

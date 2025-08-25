@@ -327,7 +327,6 @@ export default function MainPageCheckPrice() {
               )}
             </div>
           </main>
-
           <Footer />
         </div>
       </section>

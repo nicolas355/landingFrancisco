@@ -8,16 +8,18 @@ const Header = () => {
     <div className="container mx-auto">
       <header className="sticky top-0 z-50 w-full ">
         <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <img
-              src="/images/fp-logo.png"
-              alt="Francisco Peña Logo"
-              className="w-8 h-8 object-contain"
-            />
-            <span className="text-xl font-bold text-blue-600">
-              Francisco Pena
-            </span>
-          </div>
+          <a href="/">
+            <div className="flex items-center space-x-2">
+              <img
+                src="/images/fp-logo.png"
+                alt="Francisco Peña Logo"
+                className="w-8 h-8 object-contain"
+              />
+              <span className="text-xl font-bold text-blue-600">
+                Francisco Pena
+              </span>
+            </div>
+          </a>
 
           <nav className="hidden md:flex items-center space-x-6">
             <Link

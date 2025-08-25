@@ -32,15 +32,18 @@ const HeroSections = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button
-                  size="lg"
-                  className="h-12 px-8 bg-yellow-500 hover:bg-yellow-600 text-black"
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1ehYamS_pcM3Xxe8EBp1aiEQWHzShuTuF/view?usp=sharing"
                 >
-                  <a href="/images/CV.pdf" download="CV.pdf/CV.pdf">
+                  <Button
+                    size="lg"
+                    className="h-12 px-8 bg-yellow-500 hover:bg-yellow-600 text-black"
+                  >
                     Descargar CV
-                  </a>
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </a>
 
                 <a href="#operacion-catalogo">
                   <Button
